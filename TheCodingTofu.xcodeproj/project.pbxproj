@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF4B7381D82B57A00AB2A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4B7371D82B57A00AB2A79 /* AppDelegate.swift */; };
+		1FF4B73A1D82B57A00AB2A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4B7391D82B57A00AB2A79 /* ViewController.swift */; };
+		1FF4B73D1D82B57A00AB2A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF4B73B1D82B57A00AB2A79 /* Main.storyboard */; };
+		1FF4B73F1D82B57A00AB2A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF4B73E1D82B57A00AB2A79 /* Assets.xcassets */; };
+		1FF4B7421D82B57A00AB2A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF4B7401D82B57A00AB2A79 /* LaunchScreen.storyboard */; };
+		1FF4B74D1D82B57A00AB2A79 /* TheCodingTofuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4B74C1D82B57A00AB2A79 /* TheCodingTofuTests.swift */; };
+		1FF4B7581D82B57A00AB2A79 /* TheCodingTofuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF4B7571D82B57A00AB2A79 /* TheCodingTofuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FF4B7491D82B57A00AB2A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF4B72C1D82B57A00AB2A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF4B7331D82B57A00AB2A79;
+			remoteInfo = TheCodingTofu;
+		};
+		1FF4B7541D82B57A00AB2A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF4B72C1D82B57A00AB2A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF4B7331D82B57A00AB2A79;
+			remoteInfo = TheCodingTofu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FF4B7341D82B57A00AB2A79 /* TheCodingTofu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCodingTofu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF4B7371D82B57A00AB2A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FF4B7391D82B57A00AB2A79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FF4B73C1D82B57A00AB2A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FF4B73E1D82B57A00AB2A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FF4B7411D82B57A00AB2A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FF4B7431D82B57A00AB2A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF4B7481D82B57A00AB2A79 /* TheCodingTofuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCodingTofuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF4B74C1D82B57A00AB2A79 /* TheCodingTofuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCodingTofuTests.swift; sourceTree = "<group>"; };
+		1FF4B74E1D82B57A00AB2A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF4B7531D82B57A00AB2A79 /* TheCodingTofuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCodingTofuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF4B7571D82B57A00AB2A79 /* TheCodingTofuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCodingTofuUITests.swift; sourceTree = "<group>"; };
+		1FF4B7591D82B57A00AB2A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF4B7311D82B57A00AB2A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF4B7451D82B57A00AB2A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF4B7501D82B57A00AB2A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF4B72B1D82B57A00AB2A79 = {
+			isa = PBXGroup;
+			children = (
+				1FF4B7361D82B57A00AB2A79 /* TheCodingTofu */,
+				1FF4B74B1D82B57A00AB2A79 /* TheCodingTofuTests */,
+				1FF4B7561D82B57A00AB2A79 /* TheCodingTofuUITests */,
+				1FF4B7351D82B57A00AB2A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF4B7351D82B57A00AB2A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF4B7341D82B57A00AB2A79 /* TheCodingTofu.app */,
+				1FF4B7481D82B57A00AB2A79 /* TheCodingTofuTests.xctest */,
+				1FF4B7531D82B57A00AB2A79 /* TheCodingTofuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF4B7361D82B57A00AB2A79 /* TheCodingTofu */ = {
+			isa = PBXGroup;
+			children = (
+				1FF4B7371D82B57A00AB2A79 /* AppDelegate.swift */,
+				1FF4B7391D82B57A00AB2A79 /* ViewController.swift */,
+				1FF4B73B1D82B57A00AB2A79 /* Main.storyboard */,
+				1FF4B73E1D82B57A00AB2A79 /* Assets.xcassets */,
+				1FF4B7401D82B57A00AB2A79 /* LaunchScreen.storyboard */,
+				1FF4B7431D82B57A00AB2A79 /* Info.plist */,
+			);
+			path = TheCodingTofu;
+			sourceTree = "<group>";
+		};
+		1FF4B74B1D82B57A00AB2A79 /* TheCodingTofuTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FF4B74C1D82B57A00AB2A79 /* TheCodingTofuTests.swift */,
+				1FF4B74E1D82B57A00AB2A79 /* Info.plist */,
+			);
+			path = TheCodingTofuTests;
+			sourceTree = "<group>";
+		};
+		1FF4B7561D82B57A00AB2A79 /* TheCodingTofuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FF4B7571D82B57A00AB2A79 /* TheCodingTofuUITests.swift */,
+				1FF4B7591D82B57A00AB2A79 /* Info.plist */,
+			);
+			path = TheCodingTofuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF4B7331D82B57A00AB2A79 /* TheCodingTofu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF4B75C1D82B57A00AB2A79 /* Build configuration list for PBXNativeTarget "TheCodingTofu" */;
+			buildPhases = (
+				1FF4B7301D82B57A00AB2A79 /* Sources */,
+				1FF4B7311D82B57A00AB2A79 /* Frameworks */,
+				1FF4B7321D82B57A00AB2A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheCodingTofu;
+			productName = TheCodingTofu;
+			productReference = 1FF4B7341D82B57A00AB2A79 /* TheCodingTofu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FF4B7471D82B57A00AB2A79 /* TheCodingTofuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF4B75F1D82B57A00AB2A79 /* Build configuration list for PBXNativeTarget "TheCodingTofuTests" */;
+			buildPhases = (
+				1FF4B7441D82B57A00AB2A79 /* Sources */,
+				1FF4B7451D82B57A00AB2A79 /* Frameworks */,
+				1FF4B7461D82B57A00AB2A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF4B74A1D82B57A00AB2A79 /* PBXTargetDependency */,
+			);
+			name = TheCodingTofuTests;
+			productName = TheCodingTofuTests;
+			productReference = 1FF4B7481D82B57A00AB2A79 /* TheCodingTofuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FF4B7521D82B57A00AB2A79 /* TheCodingTofuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF4B7621D82B57A00AB2A79 /* Build configuration list for PBXNativeTarget "TheCodingTofuUITests" */;
+			buildPhases = (
+				1FF4B74F1D82B57A00AB2A79 /* Sources */,
+				1FF4B7501D82B57A00AB2A79 /* Frameworks */,
+				1FF4B7511D82B57A00AB2A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF4B7551D82B57A00AB2A79 /* PBXTargetDependency */,
+			);
+			name = TheCodingTofuUITests;
+			productName = TheCodingTofuUITests;
+			productReference = 1FF4B7531D82B57A00AB2A79 /* TheCodingTofuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF4B72C1D82B57A00AB2A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = VeganTofu;
+				TargetAttributes = {
+					1FF4B7331D82B57A00AB2A79 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1FF4B7471D82B57A00AB2A79 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1FF4B7331D82B57A00AB2A79;
+					};
+					1FF4B7521D82B57A00AB2A79 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1FF4B7331D82B57A00AB2A79;
+					};
+				};
+			};
+			buildConfigurationList = 1FF4B72F1D82B57A00AB2A79 /* Build configuration list for PBXProject "TheCodingTofu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FF4B72B1D82B57A00AB2A79;
+			productRefGroup = 1FF4B7351D82B57A00AB2A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF4B7331D82B57A00AB2A79 /* TheCodingTofu */,
+				1FF4B7471D82B57A00AB2A79 /* TheCodingTofuTests */,
+				1FF4B7521D82B57A00AB2A79 /* TheCodingTofuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF4B7321D82B57A00AB2A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF4B7421D82B57A00AB2A79 /* LaunchScreen.storyboard in Resources */,
+				1FF4B73F1D82B57A00AB2A79 /* Assets.xcassets in Resources */,
+				1FF4B73D1D82B57A00AB2A79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF4B7461D82B57A00AB2A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF4B7511D82B57A00AB2A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF4B7301D82B57A00AB2A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF4B73A1D82B57A00AB2A79 /* ViewController.swift in Sources */,
+				1FF4B7381D82B57A00AB2A79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF4B7441D82B57A00AB2A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF4B74D1D82B57A00AB2A79 /* TheCodingTofuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF4B74F1D82B57A00AB2A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF4B7581D82B57A00AB2A79 /* TheCodingTofuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF4B74A1D82B57A00AB2A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF4B7331D82B57A00AB2A79 /* TheCodingTofu */;
+			targetProxy = 1FF4B7491D82B57A00AB2A79 /* PBXContainerItemProxy */;
+		};
+		1FF4B7551D82B57A00AB2A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF4B7331D82B57A00AB2A79 /* TheCodingTofu */;
+			targetProxy = 1FF4B7541D82B57A00AB2A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FF4B73B1D82B57A00AB2A79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF4B73C1D82B57A00AB2A79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FF4B7401D82B57A00AB2A79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF4B7411D82B57A00AB2A79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF4B75A1D82B57A00AB2A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF4B75B1D82B57A00AB2A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF4B75D1D82B57A00AB2A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheCodingTofu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VeganTofu.TheCodingTofu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FF4B75E1D82B57A00AB2A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheCodingTofu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VeganTofu.TheCodingTofu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FF4B7601D82B57A00AB2A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheCodingTofuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VeganTofu.TheCodingTofuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCodingTofu.app/TheCodingTofu";
+			};
+			name = Debug;
+		};
+		1FF4B7611D82B57A00AB2A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheCodingTofuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VeganTofu.TheCodingTofuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCodingTofu.app/TheCodingTofu";
+			};
+			name = Release;
+		};
+		1FF4B7631D82B57A00AB2A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheCodingTofuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VeganTofu.TheCodingTofuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheCodingTofu;
+			};
+			name = Debug;
+		};
+		1FF4B7641D82B57A00AB2A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheCodingTofuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VeganTofu.TheCodingTofuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheCodingTofu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF4B72F1D82B57A00AB2A79 /* Build configuration list for PBXProject "TheCodingTofu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF4B75A1D82B57A00AB2A79 /* Debug */,
+				1FF4B75B1D82B57A00AB2A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF4B75C1D82B57A00AB2A79 /* Build configuration list for PBXNativeTarget "TheCodingTofu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF4B75D1D82B57A00AB2A79 /* Debug */,
+				1FF4B75E1D82B57A00AB2A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FF4B75F1D82B57A00AB2A79 /* Build configuration list for PBXNativeTarget "TheCodingTofuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF4B7601D82B57A00AB2A79 /* Debug */,
+				1FF4B7611D82B57A00AB2A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FF4B7621D82B57A00AB2A79 /* Build configuration list for PBXNativeTarget "TheCodingTofuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF4B7631D82B57A00AB2A79 /* Debug */,
+				1FF4B7641D82B57A00AB2A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF4B72C1D82B57A00AB2A79 /* Project object */;
+}
